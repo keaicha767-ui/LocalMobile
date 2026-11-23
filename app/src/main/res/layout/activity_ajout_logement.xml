@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Publier un logement"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/champTitre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Titre"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/champVilleAjout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ville"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/champPrix"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Prix par nuit"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/champVoyageurs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre de voyageurs"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/boutonPublier"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Publier le logement" />
+
+    <TextView
+        android:id="@+id/resultatAjout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textSize="16sp" />
+</LinearLayout>
